@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "RobotoCondensed";
+  font-display: swap;
+  src: url("../src/assets/fonts/Roboto-Condensed.woff2") format("woff2"), url("../src/assets/fonts/Roboto-Condensed.woff") format("woff");
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-style: normal;
+  font-weight: 300;
+  font-family: "RobotoCondensed";
+  font-display: swap;
+  src: url("../src/assets/fonts/RobotoCondensed-Light.woff2") format("woff2"), url("../src/assets/fonts/RobotoCondensed-Light.woff") format("woff");
+}
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "RobotoCondensed";
+  font-display: swap;
+  src: url("../src/assets/fonts/RobotoCondensed-Bold.woff2") format("woff2"), url("../src/assets/fonts/RobotoCondensed-Bold.woff") format("woff");
+}
+@font-face {
+  font-style: normal;
+  font-weight: 600;
+  font-family: "AlumniSans";
+  font-display: swap;
+  src: url("../src/assets/fonts/AlumniSans-SemiBold.woff2") format("woff2"), url("../src/assets/fonts/AlumniSans-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "AlumniSans";
+  font-display: swap;
+  src: url("../src/assets/fonts/AlumniSans-Bold.woff2") format("woff2"), url("../src/assets/fonts/AlumniSans-Bold.woff") format("woff");
+}
+@font-face {
+  font-style: normal;
+  font-weight: 800;
+  font-family: "AlumniSans";
+  font-display: swap;
+  src: url("../src/assets/fonts/AlumniSans-ExtraBold.woff2") format("woff2"), url("../src/assets/fonts/AlumniSans-ExtraBold.woff") format("woff");
 }

@@ -1,0 +1,10 @@
+export { default as css } from "../svg/icon-css.svg";
+export { default as html } from "../svg/icon-html.svg";
+export { default as js } from "../svg/icon-js.svg";
+export { default as react } from "../svg/icon-react.svg";
+export { default as mail } from "../svg/icon-email.svg";
+export { default as phone } from "../svg/icon-phone.svg";
+export { default as tg } from "../svg/icon-tg.svg";
+export { default as gh } from "../svg/icon-gh.svg";
+export { default as arrow } from "../svg/arrow.svg";
+export { default as arrowDark } from "../svg/arrow-dark.svg";

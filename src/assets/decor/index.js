@@ -1,0 +1,1 @@
+export { default as click } from "../decor/click.gif";
